@@ -1,7 +1,7 @@
 %global forgeurl https://github.com/quadratech188/sway-plasma
 
 Name: sway-plasma
-Version: 0.1.2
+Version: 0.1.3
 Release: %autorelease
 Summary: Sway patched to run KDE Plasma
 
