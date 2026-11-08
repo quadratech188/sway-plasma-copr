@@ -111,7 +111,7 @@ cd etc
 %files
 %license LICENSE
 %{_bindir}/start-sway-plasma
-%{_bindir}/sway-plasma
+%caps(cap_sys_nice=ep) %{_bindir}/sway-plasma
 %{_datadir}/sway-plasma
 %{_datadir}/wayland-sessions/sway-plasma.desktop
 %{_datadir}/xdg-desktop-portal/sway-plasma-portals.conf
