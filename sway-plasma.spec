@@ -42,6 +42,10 @@ Requires: wireplumber
 Requires: playerctl
 Requires: qt6-qttools
 
+Requires: swaylock
+
+Recommends: sway
+
 BuildRequires: cmake
 BuildRequires: extra-cmake-modules
 BuildRequires: g++
